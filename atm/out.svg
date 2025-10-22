@@ -1,0 +1,185 @@
+<svg version="1.1" baseProfile="full" width="1114.0" height="104.0" viewBox="0 0 1114 104" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+<desc >#.interface: fill=lightblue
+#.enumeration: fill=lightgreen
+#.type: fill=lightgray
+
+[Account||]
+[Atm||]
+[DepositCommand||]
+[DomainModule||]
+[DomainService||]
+[&lt;interface&gt;Icommand||]
+[WithdrawCommand||]</desc>
+<g stroke-width="1.0" text-align="left" font="12pt Helvetica, Arial, sans-serif" font-size="12pt" font-family="Helvetica" font-weight="bold" font-style="normal">
+<g font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round" stroke="#33322E">
+<g stroke="transparent" fill="transparent">
+<rect x="0.0" y="0.0" height="104.0" width="1114.0" stroke="none"></rect>
+</g>
+<g transform="translate(8, 8)" fill="#33322E">
+<g transform="translate(20, 20)">
+<g data-name="Account">
+<g fill="#eee8d5" stroke="#33322E" data-name="Account">
+<rect x="0.0" y="0.0" height="48.0" width="80.0" data-name="Account"></rect>
+<path d="M0.0 32.0 L80.0 32.0" fill="none" data-name="Account"></path>
+<path d="M0.0 40.0 L80.0 40.0" fill="none" data-name="Account"></path>
+</g>
+<g transform="translate(0, 0)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Account" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Account" data-compartment="0">
+<a id="libs\domain\src\account.ts.Account" xlink:href="libs\domain\src\account.ts"><text x="32.0" y="14.1" stroke="none" text-anchor="middle" data-name="Account" data-compartment="0">Account</text></a>
+
+</g>
+</g>
+<g transform="translate(0, 32)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Account" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="Account" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(0, 40)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Account" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" data-name="Account" data-compartment="2">
+
+</g>
+</g>
+</g>
+<g data-name="Atm">
+<g fill="#eee8d5" stroke="#33322E" data-name="Atm">
+<rect x="120.0" y="0.0" height="48.0" width="46.0" data-name="Atm"></rect>
+<path d="M120.0 32.0 L166.0 32.0" fill="none" data-name="Atm"></path>
+<path d="M120.0 40.0 L166.0 40.0" fill="none" data-name="Atm"></path>
+</g>
+<g transform="translate(120, 0)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Atm" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Atm" data-compartment="0">
+<a id="libs\domain\src\atm.ts.Atm" xlink:href="libs\domain\src\atm.ts"><text x="15.0" y="14.1" stroke="none" text-anchor="middle" data-name="Atm" data-compartment="0">Atm</text></a>
+
+</g>
+</g>
+<g transform="translate(120, 32)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Atm" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="Atm" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(120, 40)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Atm" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" data-name="Atm" data-compartment="2">
+
+</g>
+</g>
+</g>
+<g data-name="DepositCommand">
+<g fill="#eee8d5" stroke="#33322E" data-name="DepositCommand">
+<rect x="206.0" y="0.0" height="48.0" width="156.0" data-name="DepositCommand"></rect>
+<path d="M206.0 32.0 L362.0 32.0" fill="none" data-name="DepositCommand"></path>
+<path d="M206.0 40.0 L362.0 40.0" fill="none" data-name="DepositCommand"></path>
+</g>
+<g transform="translate(206, 0)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="DepositCommand" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="DepositCommand" data-compartment="0">
+<a id="libs\domain\src\deposit-command.ts.DepositCommand" xlink:href="libs\domain\src\deposit-command.ts"><text x="70.0" y="14.1" stroke="none" text-anchor="middle" data-name="DepositCommand" data-compartment="0">DepositCommand</text></a>
+
+</g>
+</g>
+<g transform="translate(206, 32)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="DepositCommand" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="DepositCommand" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(206, 40)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="DepositCommand" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" data-name="DepositCommand" data-compartment="2">
+
+</g>
+</g>
+</g>
+<g data-name="DomainModule">
+<g fill="#eee8d5" stroke="#33322E" data-name="DomainModule">
+<rect x="402.0" y="0.0" height="48.0" width="134.0" data-name="DomainModule"></rect>
+<path d="M402.0 32.0 L536.0 32.0" fill="none" data-name="DomainModule"></path>
+<path d="M402.0 40.0 L536.0 40.0" fill="none" data-name="DomainModule"></path>
+</g>
+<g transform="translate(402, 0)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="DomainModule" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="DomainModule" data-compartment="0">
+<a id="libs\domain\src\domain.module.ts.DomainModule" xlink:href="libs\domain\src\domain.module.ts"><text x="59.0" y="14.1" stroke="none" text-anchor="middle" data-name="DomainModule" data-compartment="0">DomainModule</text></a>
+
+</g>
+</g>
+<g transform="translate(402, 32)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="DomainModule" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="DomainModule" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(402, 40)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="DomainModule" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" data-name="DomainModule" data-compartment="2">
+
+</g>
+</g>
+</g>
+<g data-name="DomainService">
+<g fill="#eee8d5" stroke="#33322E" data-name="DomainService">
+<rect x="576.0" y="0.0" height="48.0" width="135.0" data-name="DomainService"></rect>
+<path d="M576.0 32.0 L711.0 32.0" fill="none" data-name="DomainService"></path>
+<path d="M576.0 40.0 L711.0 40.0" fill="none" data-name="DomainService"></path>
+</g>
+<g transform="translate(576, 0)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="DomainService" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="DomainService" data-compartment="0">
+<a id="libs\domain\src\domain.service.ts.DomainService" xlink:href="libs\domain\src\domain.service.ts"><text x="59.5" y="14.1" stroke="none" text-anchor="middle" data-name="DomainService" data-compartment="0">DomainService</text></a>
+
+</g>
+</g>
+<g transform="translate(576, 32)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="DomainService" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="DomainService" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(576, 40)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="DomainService" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" data-name="DomainService" data-compartment="2">
+
+</g>
+</g>
+</g>
+<g data-name="Icommand">
+<g fill="lightblue" stroke="#33322E" data-name="Icommand">
+<rect x="751.0" y="0.0" height="48.0" width="98.0" data-name="Icommand"></rect>
+<path d="M751.0 32.0 L849.0 32.0" fill="none" data-name="Icommand"></path>
+<path d="M751.0 40.0 L849.0 40.0" fill="none" data-name="Icommand"></path>
+</g>
+<g transform="translate(751, 0)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Icommand" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Icommand" data-compartment="0">
+<a id="libs\domain\src\icommand.interface.ts.Icommand" xlink:href="libs\domain\src\icommand.interface.ts"><text x="41.0" y="14.1" stroke="none" text-anchor="middle" data-name="Icommand" data-compartment="0">Icommand</text></a>
+
+</g>
+</g>
+<g transform="translate(751, 32)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Icommand" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="Icommand" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(751, 40)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Icommand" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" data-name="Icommand" data-compartment="2">
+
+</g>
+</g>
+</g>
+<g data-name="WithdrawCommand">
+<g fill="#eee8d5" stroke="#33322E" data-name="WithdrawCommand">
+<rect x="889.0" y="0.0" height="48.0" width="169.0" data-name="WithdrawCommand"></rect>
+<path d="M889.0 32.0 L1058.0 32.0" fill="none" data-name="WithdrawCommand"></path>
+<path d="M889.0 40.0 L1058.0 40.0" fill="none" data-name="WithdrawCommand"></path>
+</g>
+<g transform="translate(889, 0)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="WithdrawCommand" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="WithdrawCommand" data-compartment="0">
+<a id="libs\domain\src\withdraw-command.ts.WithdrawCommand" xlink:href="libs\domain\src\withdraw-command.ts"><text x="76.5" y="14.1" stroke="none" text-anchor="middle" data-name="WithdrawCommand" data-compartment="0">WithdrawCommand</text></a>
+
+</g>
+</g>
+<g transform="translate(889, 32)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="WithdrawCommand" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="WithdrawCommand" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(889, 40)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="WithdrawCommand" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" data-name="WithdrawCommand" data-compartment="2">
+
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>
