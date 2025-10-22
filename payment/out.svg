@@ -1,0 +1,209 @@
+<svg version="1.1" baseProfile="full" width="1708.0" height="104.0" viewBox="0 0 1708 104" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+<desc >#.interface: fill=lightblue
+#.enumeration: fill=lightgreen
+#.type: fill=lightgray
+
+[CashPaymentStrategy||]
+[CreditCardPaymentStrategy||]
+[DebitCardPaymentStrategy||]
+[DomainModule||]
+[DomainService||]
+[&lt;interface&gt;IpaymentStrategy||]
+[PaymentContext||]
+[PaymentService||]</desc>
+<g stroke-width="1.0" text-align="left" font="12pt Helvetica, Arial, sans-serif" font-size="12pt" font-family="Helvetica" font-weight="bold" font-style="normal">
+<g font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round" stroke="#33322E">
+<g stroke="transparent" fill="transparent">
+<rect x="0.0" y="0.0" height="104.0" width="1708.0" stroke="none"></rect>
+</g>
+<g transform="translate(8, 8)" fill="#33322E">
+<g transform="translate(20, 20)">
+<g data-name="CashPaymentStrategy">
+<g fill="#eee8d5" stroke="#33322E" data-name="CashPaymentStrategy">
+<rect x="0.0" y="0.0" height="48.0" width="192.0" data-name="CashPaymentStrategy"></rect>
+<path d="M0.0 32.0 L192.0 32.0" fill="none" data-name="CashPaymentStrategy"></path>
+<path d="M0.0 40.0 L192.0 40.0" fill="none" data-name="CashPaymentStrategy"></path>
+</g>
+<g transform="translate(0, 0)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="CashPaymentStrategy" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="CashPaymentStrategy" data-compartment="0">
+<a id="libs\domain\src\cash-payment-strategy.ts.CashPaymentStrategy" xlink:href="libs\domain\src\cash-payment-strategy.ts"><text x="88.0" y="14.1" stroke="none" text-anchor="middle" data-name="CashPaymentStrategy" data-compartment="0">CashPaymentStrategy</text></a>
+
+</g>
+</g>
+<g transform="translate(0, 32)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="CashPaymentStrategy" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="CashPaymentStrategy" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(0, 40)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="CashPaymentStrategy" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" data-name="CashPaymentStrategy" data-compartment="2">
+
+</g>
+</g>
+</g>
+<g data-name="CreditCardPaymentStrategy">
+<g fill="#eee8d5" stroke="#33322E" data-name="CreditCardPaymentStrategy">
+<rect x="232.0" y="0.0" height="48.0" width="236.0" data-name="CreditCardPaymentStrategy"></rect>
+<path d="M232.0 32.0 L468.0 32.0" fill="none" data-name="CreditCardPaymentStrategy"></path>
+<path d="M232.0 40.0 L468.0 40.0" fill="none" data-name="CreditCardPaymentStrategy"></path>
+</g>
+<g transform="translate(232, 0)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="CreditCardPaymentStrategy" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="CreditCardPaymentStrategy" data-compartment="0">
+<a id="libs\domain\src\credit-card-payment-strategy.ts.CreditCardPaymentStrategy" xlink:href="libs\domain\src\credit-card-payment-strategy.ts"><text x="110.0" y="14.1" stroke="none" text-anchor="middle" data-name="CreditCardPaymentStrategy" data-compartment="0">CreditCardPaymentStrategy</text></a>
+
+</g>
+</g>
+<g transform="translate(232, 32)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="CreditCardPaymentStrategy" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="CreditCardPaymentStrategy" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(232, 40)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="CreditCardPaymentStrategy" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" data-name="CreditCardPaymentStrategy" data-compartment="2">
+
+</g>
+</g>
+</g>
+<g data-name="DebitCardPaymentStrategy">
+<g fill="#eee8d5" stroke="#33322E" data-name="DebitCardPaymentStrategy">
+<rect x="508.0" y="0.0" height="48.0" width="230.0" data-name="DebitCardPaymentStrategy"></rect>
+<path d="M508.0 32.0 L738.0 32.0" fill="none" data-name="DebitCardPaymentStrategy"></path>
+<path d="M508.0 40.0 L738.0 40.0" fill="none" data-name="DebitCardPaymentStrategy"></path>
+</g>
+<g transform="translate(508, 0)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="DebitCardPaymentStrategy" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="DebitCardPaymentStrategy" data-compartment="0">
+<a id="libs\domain\src\debit-card-payment-strategy.ts.DebitCardPaymentStrategy" xlink:href="libs\domain\src\debit-card-payment-strategy.ts"><text x="107.0" y="14.1" stroke="none" text-anchor="middle" data-name="DebitCardPaymentStrategy" data-compartment="0">DebitCardPaymentStrategy</text></a>
+
+</g>
+</g>
+<g transform="translate(508, 32)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="DebitCardPaymentStrategy" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="DebitCardPaymentStrategy" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(508, 40)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="DebitCardPaymentStrategy" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" data-name="DebitCardPaymentStrategy" data-compartment="2">
+
+</g>
+</g>
+</g>
+<g data-name="DomainModule">
+<g fill="#eee8d5" stroke="#33322E" data-name="DomainModule">
+<rect x="778.0" y="0.0" height="48.0" width="134.0" data-name="DomainModule"></rect>
+<path d="M778.0 32.0 L912.0 32.0" fill="none" data-name="DomainModule"></path>
+<path d="M778.0 40.0 L912.0 40.0" fill="none" data-name="DomainModule"></path>
+</g>
+<g transform="translate(778, 0)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="DomainModule" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="DomainModule" data-compartment="0">
+<a id="libs\domain\src\domain.module.ts.DomainModule" xlink:href="libs\domain\src\domain.module.ts"><text x="59.0" y="14.1" stroke="none" text-anchor="middle" data-name="DomainModule" data-compartment="0">DomainModule</text></a>
+
+</g>
+</g>
+<g transform="translate(778, 32)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="DomainModule" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="DomainModule" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(778, 40)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="DomainModule" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" data-name="DomainModule" data-compartment="2">
+
+</g>
+</g>
+</g>
+<g data-name="DomainService">
+<g fill="#eee8d5" stroke="#33322E" data-name="DomainService">
+<rect x="952.0" y="0.0" height="48.0" width="135.0" data-name="DomainService"></rect>
+<path d="M952.0 32.0 L1087.0 32.0" fill="none" data-name="DomainService"></path>
+<path d="M952.0 40.0 L1087.0 40.0" fill="none" data-name="DomainService"></path>
+</g>
+<g transform="translate(952, 0)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="DomainService" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="DomainService" data-compartment="0">
+<a id="libs\domain\src\domain.service.ts.DomainService" xlink:href="libs\domain\src\domain.service.ts"><text x="59.5" y="14.1" stroke="none" text-anchor="middle" data-name="DomainService" data-compartment="0">DomainService</text></a>
+
+</g>
+</g>
+<g transform="translate(952, 32)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="DomainService" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="DomainService" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(952, 40)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="DomainService" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" data-name="DomainService" data-compartment="2">
+
+</g>
+</g>
+</g>
+<g data-name="IpaymentStrategy">
+<g fill="lightblue" stroke="#33322E" data-name="IpaymentStrategy">
+<rect x="1127.0" y="0.0" height="48.0" width="155.0" data-name="IpaymentStrategy"></rect>
+<path d="M1127.0 32.0 L1282.0 32.0" fill="none" data-name="IpaymentStrategy"></path>
+<path d="M1127.0 40.0 L1282.0 40.0" fill="none" data-name="IpaymentStrategy"></path>
+</g>
+<g transform="translate(1127, 0)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="IpaymentStrategy" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="IpaymentStrategy" data-compartment="0">
+<a id="libs\domain\src\ipayment-strategy.interface.ts.IpaymentStrategy" xlink:href="libs\domain\src\ipayment-strategy.interface.ts"><text x="69.5" y="14.1" stroke="none" text-anchor="middle" data-name="IpaymentStrategy" data-compartment="0">IpaymentStrategy</text></a>
+
+</g>
+</g>
+<g transform="translate(1127, 32)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="IpaymentStrategy" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="IpaymentStrategy" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(1127, 40)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="IpaymentStrategy" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" data-name="IpaymentStrategy" data-compartment="2">
+
+</g>
+</g>
+</g>
+<g data-name="PaymentContext">
+<g fill="#eee8d5" stroke="#33322E" data-name="PaymentContext">
+<rect x="1322.0" y="0.0" height="48.0" width="146.0" data-name="PaymentContext"></rect>
+<path d="M1322.0 32.0 L1468.0 32.0" fill="none" data-name="PaymentContext"></path>
+<path d="M1322.0 40.0 L1468.0 40.0" fill="none" data-name="PaymentContext"></path>
+</g>
+<g transform="translate(1322, 0)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="PaymentContext" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="PaymentContext" data-compartment="0">
+<a id="libs\domain\src\payment-context.ts.PaymentContext" xlink:href="libs\domain\src\payment-context.ts"><text x="65.0" y="14.1" stroke="none" text-anchor="middle" data-name="PaymentContext" data-compartment="0">PaymentContext</text></a>
+
+</g>
+</g>
+<g transform="translate(1322, 32)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="PaymentContext" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="PaymentContext" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(1322, 40)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="PaymentContext" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" data-name="PaymentContext" data-compartment="2">
+
+</g>
+</g>
+</g>
+<g data-name="PaymentService">
+<g fill="#eee8d5" stroke="#33322E" data-name="PaymentService">
+<rect x="1508.0" y="0.0" height="48.0" width="144.0" data-name="PaymentService"></rect>
+<path d="M1508.0 32.0 L1652.0 32.0" fill="none" data-name="PaymentService"></path>
+<path d="M1508.0 40.0 L1652.0 40.0" fill="none" data-name="PaymentService"></path>
+</g>
+<g transform="translate(1508, 0)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="PaymentService" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="PaymentService" data-compartment="0">
+<a id="libs\domain\src\payment-service.ts.PaymentService" xlink:href="libs\domain\src\payment-service.ts"><text x="64.0" y="14.1" stroke="none" text-anchor="middle" data-name="PaymentService" data-compartment="0">PaymentService</text></a>
+
+</g>
+</g>
+<g transform="translate(1508, 32)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="PaymentService" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" data-name="PaymentService" data-compartment="1">
+
+</g>
+</g>
+<g transform="translate(1508, 40)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="PaymentService" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" data-name="PaymentService" data-compartment="2">
+
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>
