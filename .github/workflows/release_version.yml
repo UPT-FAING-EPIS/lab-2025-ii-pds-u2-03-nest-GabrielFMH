@@ -1,0 +1,43 @@
+name: Release Version
+
+on:
+  release:
+    types: [published]
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        module: [payment, atm]
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        cache-dependency-path: ${{ matrix.module }}/package-lock.json
+
+    - name: Install dependencies
+      run: cd ${{ matrix.module }} && npm ci
+
+    - name: Build
+      run: cd ${{ matrix.module }} && npm run build
+
+    - name: Create tarball
+      run: cd ${{ matrix.module }} && npm pack
+
+    - name: Upload release assets
+      uses: softprops/action-gh-release@v2
+      if: startsWith(github.ref, 'refs/tags/')
+      with:
+        files: |
+          ${{ matrix.module }}/*.tgz
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
