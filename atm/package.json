@@ -1,10 +1,14 @@
 {
-  "name": "atm",
+  "name": "@gabrielmelendez/atm_melendez",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
-  "private": true,
-  "license": "UNLICENSED",
+  "description": "ATM module for NestJS application",
+  "author": "Gabriel Melendez",
+  "private": false,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GabrielFMH/lab-2025-ii-pds-u2-03-nest-GabrielFMH.git"
+  },
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\" \"libs/**/*.ts\"",
